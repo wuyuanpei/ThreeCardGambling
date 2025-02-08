@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dkhfb3afog2oo"]
+
+[ext_resource type="Texture2D" uid="uid://b3iv44wbtyq7l" path="res://assets/green-circle.png" id="1_4n053"]
+[ext_resource type="Texture2D" uid="uid://b1ljkwvw1fdat" path="res://assets/red-circle.png" id="2_ivhkm"]
+
+[node name="TurnRecord" type="Node2D"]
+
+[node name="Turn1" type="Sprite2D" parent="."]
+position = Vector2(-100, 0)
+texture = ExtResource("2_ivhkm")
+
+[node name="Turn2" type="Sprite2D" parent="."]
+texture = ExtResource("1_4n053")
+
+[node name="Turn3" type="Sprite2D" parent="."]
+position = Vector2(100, 0)
+texture = ExtResource("1_4n053")
